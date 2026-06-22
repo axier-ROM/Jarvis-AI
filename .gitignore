@@ -1,0 +1,52 @@
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ─── Virtual environments ────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ─── IDE / Editor ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── Secrets — NEVER commit ──────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.yaml
+config.local.yaml
+
+# ─── Project artifacts ───────────────────────────────────────────────────────
+speak.mp3
+jarvis_*.mp3
+logs/
+*.log
+
+# ── Desktop installers / non-source files in this folder ─────────────────────
+# (kept on disk for the user but never committed)
+*.exe
+*.rar
+dataset/
+jarvis.py.bak
+~$*
+*.tmp
+
+# ─── User config — kept locally, not in repo ────────────────────────────────
+# (uncomment if you want to also exclude jarvis_config.json)
+# .jarvis_config.json
